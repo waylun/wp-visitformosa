@@ -1,0 +1,209 @@
+0000.001 (0) Opened log file at time: Mon, 18 Feb 2019 16:46:25 +0000 on https://visitformosa.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.0.3 PHP: 7.0.33 (cgi-fcgi, Linux box5348.bluehost.com 3.10.0-693.11.6.1.ELK.el6.x86_64 #1 SMP Tue Jan 23 10:30:30 MST 2018 x86_64) MySQL: 5.6.41-84.1 WPLANG: zh_TW Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 65M | 68M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.084 (0) Free space on disk containing Updraft's temporary directory: 1124845 MB
+0000.087 (0) Tasks: Backup files: 1 (schedule: monthly) Backup DB:  (schedule: fortnightly)
+0000.087 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.090 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1547921506, seconds_ago=2586879)
+0000.092 (0) Set semaphore last lock (f) time to 2019-02-18 16:46:25
+0000.092 (0) Semaphore lock (f) complete
+0000.095 (0) Backup run: resumption=0, nonce=3cb5eff1b41a, file_nonce=3cb5eff1b41a begun at=1550508385 (0s ago), job type=backup
+0000.096 (0) Scheduling a resumption (1) after 300 seconds (1550508685) in case this run gets aborted
+0000.107 (0) Checking if we have a zip executable available
+0000.107 (0) Testing: /usr/bin/zip
+0000.117 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.119 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.119 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.120 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.120 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.130 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.131 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.141 (0) Working binary zip found: /usr/bin/zip
+0000.142 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.142 (0) Creation of backups of directories: beginning
+0000.144 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.842 (0) Total entities for the zip file: 1225 directories, 7509 files (0 skipped as non-modified), 114.8 MB
+0000.846 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.850 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.853 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.856 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.859 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.860 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.2 MB, 7509 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.122 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: size is now: 5.60 MB
+0002.126 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 600 files added (on-disk size: 5730.5 KB)
+0002.130 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 700 files added (on-disk size: 5730.5 KB)
+0002.133 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 800 files added (on-disk size: 5730.5 KB)
+0002.137 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 900 files added (on-disk size: 5730.5 KB)
+0002.141 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1000 files added (on-disk size: 5730.5 KB)
+0002.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 7509 files batched, 501 (1002) added so far); re-opening (prior size: 5730.5 KB)
+0002.697 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: size is now: 7.70 MB
+0002.703 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1100 files added (on-disk size: 7933.9 KB)
+0002.706 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1200 files added (on-disk size: 7933.9 KB)
+0002.710 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1300 files added (on-disk size: 7933.9 KB)
+0002.713 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1400 files added (on-disk size: 7933.9 KB)
+0002.717 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1500 files added (on-disk size: 7933.9 KB)
+0002.718 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 7509 files batched, 501 (1503) added so far); re-opening (prior size: 7933.9 KB)
+0003.029 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1600 files added (on-disk size: 8630.4 KB)
+0003.033 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1700 files added (on-disk size: 8630.4 KB)
+0003.037 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1800 files added (on-disk size: 8630.4 KB)
+0003.040 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 1900 files added (on-disk size: 8630.4 KB)
+0003.044 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2000 files added (on-disk size: 8630.4 KB)
+0003.045 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 7509 files batched, 501 (2004) added so far); re-opening (prior size: 8630.4 KB)
+0003.675 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: size is now: 10.20 MB
+0003.681 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2100 files added (on-disk size: 10467.6 KB)
+0003.684 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2200 files added (on-disk size: 10467.6 KB)
+0003.687 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2300 files added (on-disk size: 10467.6 KB)
+0003.691 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2400 files added (on-disk size: 10467.6 KB)
+0003.694 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2500 files added (on-disk size: 10467.6 KB)
+0003.695 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 7509 files batched, 501 (2505) added so far); re-opening (prior size: 10467.6 KB)
+0004.320 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: size is now: 12.40 MB
+0004.326 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2600 files added (on-disk size: 12657 KB)
+0004.329 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2700 files added (on-disk size: 12657 KB)
+0004.333 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2800 files added (on-disk size: 12657 KB)
+0004.336 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 2900 files added (on-disk size: 12657 KB)
+0004.340 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3000 files added (on-disk size: 12657 KB)
+0004.341 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7 MB, 7509 files batched, 501 (3006) added so far); re-opening (prior size: 12657 KB)
+0005.114 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3100 files added (on-disk size: 15147.2 KB)
+0005.118 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3200 files added (on-disk size: 15147.2 KB)
+0005.121 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3300 files added (on-disk size: 15147.2 KB)
+0005.125 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3400 files added (on-disk size: 15147.2 KB)
+0005.128 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3500 files added (on-disk size: 15147.2 KB)
+0005.129 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 7509 files batched, 501 (3507) added so far); re-opening (prior size: 15147.2 KB)
+0005.541 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3600 files added (on-disk size: 16305.1 KB)
+0005.545 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3700 files added (on-disk size: 16305.1 KB)
+0005.548 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3800 files added (on-disk size: 16305.1 KB)
+0005.552 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 3900 files added (on-disk size: 16305.1 KB)
+0005.555 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4000 files added (on-disk size: 16305.1 KB)
+0005.556 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 7509 files batched, 501 (4008) added so far); re-opening (prior size: 16305.1 KB)
+0006.147 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4100 files added (on-disk size: 18971.7 KB)
+0006.151 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4200 files added (on-disk size: 18971.7 KB)
+0006.154 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4300 files added (on-disk size: 18971.7 KB)
+0006.158 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4400 files added (on-disk size: 18971.7 KB)
+0006.161 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4500 files added (on-disk size: 18971.7 KB)
+0006.162 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 7509 files batched, 501 (4509) added so far); re-opening (prior size: 18971.7 KB)
+0006.581 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4600 files added (on-disk size: 20526.9 KB)
+0006.585 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4700 files added (on-disk size: 20526.9 KB)
+0006.589 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4800 files added (on-disk size: 20526.9 KB)
+0006.592 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 4900 files added (on-disk size: 20526.9 KB)
+0006.596 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5000 files added (on-disk size: 20526.9 KB)
+0006.597 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 7509 files batched, 501 (5010) added so far); re-opening (prior size: 20526.9 KB)
+0007.035 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5100 files added (on-disk size: 21699.9 KB)
+0007.039 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5200 files added (on-disk size: 21699.9 KB)
+0007.043 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5300 files added (on-disk size: 21699.9 KB)
+0007.046 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5400 files added (on-disk size: 21699.9 KB)
+0007.050 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5500 files added (on-disk size: 21699.9 KB)
+0007.051 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 7509 files batched, 501 (5511) added so far); re-opening (prior size: 21699.9 KB)
+0007.743 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5600 files added (on-disk size: 24052.9 KB)
+0007.747 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5700 files added (on-disk size: 24052.9 KB)
+0007.751 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5800 files added (on-disk size: 24052.9 KB)
+0007.754 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 5900 files added (on-disk size: 24052.9 KB)
+0007.757 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6000 files added (on-disk size: 24052.9 KB)
+0007.758 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.9 MB, 7509 files batched, 501 (6012) added so far); re-opening (prior size: 24052.9 KB)
+0008.794 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6100 files added (on-disk size: 28090.5 KB)
+0008.798 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6200 files added (on-disk size: 28090.5 KB)
+0008.801 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6300 files added (on-disk size: 28090.5 KB)
+0008.805 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6400 files added (on-disk size: 28090.5 KB)
+0008.809 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6500 files added (on-disk size: 28090.5 KB)
+0008.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 7509 files batched, 501 (6513) added so far); re-opening (prior size: 28090.5 KB)
+0009.650 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6600 files added (on-disk size: 32950.8 KB)
+0009.654 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6700 files added (on-disk size: 32950.8 KB)
+0009.658 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6800 files added (on-disk size: 32950.8 KB)
+0009.662 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 6900 files added (on-disk size: 32950.8 KB)
+0009.665 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7000 files added (on-disk size: 32950.8 KB)
+0009.666 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 7509 files batched, 501 (7014) added so far); re-opening (prior size: 32950.8 KB)
+0010.374 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7100 files added (on-disk size: 35299.9 KB)
+0010.378 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7200 files added (on-disk size: 35299.9 KB)
+0010.381 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7300 files added (on-disk size: 35299.9 KB)
+0010.385 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7400 files added (on-disk size: 35299.9 KB)
+0010.389 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip.tmp: 7500 files added (on-disk size: 35299.9 KB)
+0011.720 (0) Created plugins zip (0) - 37971.1 KB in 11.5 s (3296.4 KB/s) (sha1: 15e095e13c0c84d3647bf9c71fd46964e4e87434, sha256: ab4f484931682a2f1ab73d1a3b4c50493fe91736cc24c35f7e0b7e7fc5297662)
+0011.722 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.856 (0) Total entities for the zip file: 94 directories, 390 files (0 skipped as non-modified), 13.6 MB
+0011.860 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.864 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.868 (0) Zip: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0012.745 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip.tmp: size is now: 6.80 MB
+0012.865 (0) Created themes zip (0) - 6991 KB in 1.1 s (6624.8 KB/s) (sha1: 4ed8a90327d0f864de02f2c80735376fdc7b9166, sha256: b3e9459b5c1c6a33abd2b372ae3e330387ea9c3f8569aa0fe6f500a6d9cc241b)
+0012.867 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0012.868 (0) Looking for candidates to backup in: /home4/smartlu1/public_html/formosa/wp-content/uploads
+0012.869 (0) finding files: woocommerce_uploads: adding to list (1)
+0012.869 (0) finding files: 2018: adding to list (2)
+0012.870 (0) finding files: 2019: adding to list (3)
+0012.870 (0) finding files: wc-logs: adding to list (4)
+0012.871 (0) finding files: GeoLite2-Country.mmdb: adding to list (5)
+0012.871 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0012.942 (0) Total entities for the zip file: 8 directories, 71 files (0 skipped as non-modified), 12.4 MB
+0013.585 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-uploads.zip.tmp: size is now: 10.80 MB
+0013.762 (0) Created uploads zip (0) - 11034.3 KB in 0.8 s (13355.4 KB/s) (sha1: 9a528aa6d2808748e253075bad411eac5f208326, sha256: 9804eff20fb51ab60c9913c3024fa28730b96ca1fdb6a6c97f75fe2bca04fdd1)
+0013.764 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.765 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.765 (0) Looking for candidates to backup in: /home4/smartlu1/public_html/formosa/wp-content
+0013.766 (0) finding files: languages: adding to list (1)
+0013.767 (0) finding files: mu-plugins: adding to list (2)
+0013.767 (0) finding files: upgrade: skipping: excluded by options
+0013.768 (0) finding files: updraft: skipping: this is the updraft directory
+0013.768 (0) finding files: plugins: skipping: this is the plugins directory
+0013.769 (0) finding files: themes: skipping: this is the themes directory
+0013.769 (0) finding files: index.php: adding to list (3)
+0013.770 (0) finding files: uploads: skipping: this is the uploads directory
+0013.837 (0) Total entities for the zip file: 4 directories, 37 files (0 skipped as non-modified), 4.5 MB
+0014.128 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-others.zip.tmp: size is now: 1.30 MB
+0014.150 (0) Created others zip (0) - 1366 KB in 0.3 s (4323.1 KB/s) (sha1: 5281670e6ccf3dd0ae6860e21c960d4d28cfa4bf, sha256: cc3f92ec574cfe398191bfdf53dbfb55b1dd831b9fb29771e257872f97848857)
+0014.154 (0) Saving backup status to database (elements: 8)
+0014.156 (0) No database backup (wp) - not part of this run
+0014.158 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0014.159 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0014.159 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0014.160 (0) backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-others.zip: others: This file has not yet been successfully uploaded: will queue
+0014.161 (0) Saving backup history. Total backup size: 56 MB
+0014.163 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0014.165 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.166 (0) No remote despatch: user chose no remote backup service
+0014.166 (0) Recording as successfully uploaded: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-plugins.zip
+0014.168 (0) Recording as successfully uploaded: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-themes.zip
+0014.169 (0) Recording as successfully uploaded: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-uploads.zip
+0014.171 (0) Recording as successfully uploaded: backup_2019-02-19-0046_Visit_Formosa_3cb5eff1b41a-others.zip
+0014.173 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.174 (0) Number of backup sets in history: 5; groups (db): 1
+0014.174 (0) Examining (for databases) backup set with group_id=0, nonce=3cb5eff1b41a, datestamp=1550508385 (Feb 18 2019 16:46:25)
+0014.175 (0) Examining (for databases) backup set with group_id=0, nonce=6ef85a954b3e, datestamp=1549987414 (Feb 12 2019 16:03:34)
+0014.175 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.176 (0) Examining (for databases) backup set with group_id=0, nonce=753bd7453362, datestamp=1548777832 (Jan 29 2019 16:03:52)
+0014.176 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.176 (0) Examining (for databases) backup set with group_id=0, nonce=55cf59334d0a, datestamp=1547921506 (Jan 19 2019 18:11:46)
+0014.176 (0) Examining (for databases) backup set with group_id=0, nonce=956b3e1f1df0, datestamp=1545331024 (Dec 20 2018 18:37:04)
+0014.176 (0) Number of backup sets in history: 5; groups (files): 1
+0014.176 (0) Examining (for files) backup set with nonce=3cb5eff1b41a, datestamp=1550508385 (Feb 18 2019 16:46:25)
+0014.176 (0) This backup set is the backup set just made, so will not be deleted.
+0014.177 (0) This backup set is the backup set just made, so will not be deleted.
+0014.177 (0) This backup set is the backup set just made, so will not be deleted.
+0014.177 (0) This backup set is the backup set just made, so will not be deleted.
+0014.177 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0014.178 (0) Examining (for files) backup set with nonce=6ef85a954b3e, datestamp=1549987414 (Feb 12 2019 16:03:34)
+0014.178 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.178 (0) Examining (for files) backup set with nonce=753bd7453362, datestamp=1548777832 (Jan 29 2019 16:03:52)
+0014.178 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0014.178 (0) Examining (for files) backup set with nonce=55cf59334d0a, datestamp=1547921506 (Jan 19 2019 18:11:46)
+0014.178 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0014.179 (0) Examining (for files) backup set with nonce=956b3e1f1df0, datestamp=1545331024 (Dec 20 2018 18:37:04)
+0014.179 (0) plugins: over retain limit (2); will delete this file entity
+0014.179 (0) themes: over retain limit (2); will delete this file entity
+0014.179 (0) uploads: over retain limit (2); will delete this file entity
+0014.179 (0) others: over retain limit (2); will delete this file entity
+0014.179 (0) Delete file: backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-plugins.zip, service=none
+0014.180 (0) Deleting local copy (backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-plugins.zip)
+0014.183 (0) Delete file: backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-themes.zip, service=none
+0014.184 (0) Deleting local copy (backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-themes.zip)
+0014.185 (0) Delete file: backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-uploads.zip, service=none
+0014.185 (0) Deleting local copy (backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-uploads.zip)
+0014.186 (0) Delete file: backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-others.zip, service=none
+0014.187 (0) Deleting local copy (backup_2018-12-21-0237_Visit_Formosa_956b3e1f1df0-others.zip)
+0014.188 (0) This backup set is now empty; will remove from history
+0014.189 (0) Corresponding log file (log.956b3e1f1df0.txt) not found - must have already been deleted
+0014.190 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0014.192 (0) Resume backup (3cb5eff1b41a, 0): finish run
+0014.193 (0) Decremented the semaphore (f) by 1
+0014.194 (0) Semaphore (f) unlocked
+0014.195 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0014.197 (0) The backup apparently succeeded and is now complete
+0014.198 (0) No email will/can be sent - the user has not configured an email address.
+0014.198 (0) 備份工作已完成

@@ -1,0 +1,179 @@
+0000.001 (0) Opened log file at time: Tue, 26 Feb 2019 16:35:42 +0000 on https://visitformosa.com
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.5 WP: 5.1 PHP: 7.0.33 (cgi-fcgi, Linux box5348.bluehost.com 3.10.0-693.11.6.1.ELK.el6.x86_64 #1 SMP Tue Jan 23 10:30:30 MST 2018 x86_64) MySQL: 5.6.41-84.1 WPLANG: zh_TW Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 59.5M | 62M) multisite: N openssl: OpenSSL 1.0.2q  20 Nov 2018 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.097 (0) Free space on disk containing Updraft's temporary directory: 1122016.8 MB
+0000.100 (0) Tasks: Backup files:  (schedule: monthly) Backup DB: 1 (schedule: fortnightly)
+0000.101 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.104 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1549987414, seconds_ago=1211528)
+0000.105 (0) Set semaphore last lock (d) time to 2019-02-26 16:35:42
+0000.106 (0) Semaphore lock (d) complete
+0000.108 (0) Backup run: resumption=0, nonce=dd8da2f4e8e5, file_nonce=dd8da2f4e8e5 begun at=1551198942 (0s ago), job type=backup
+0000.109 (0) Scheduling a resumption (1) after 300 seconds (1551199242) in case this run gets aborted
+0000.122 (0) This backup run is not intended for files - skipping
+0000.122 (0) Beginning creation of database dump (WordPress DB)
+0000.124 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.156 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `e37_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCR (truncated - 1215 bytes total)
+0000.161 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.190 (0) Table e37_options: Total expected rows (approximate): 550
+0000.212 (0) Table e37_options: Total rows added: 546 in 0.02 seconds
+0000.213 (0) Table e37_options: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_options.table.gz - 37.7 KB)
+0000.216 (0) Table e37_users: Total expected rows (approximate): 1
+0000.218 (0) Table e37_users: Total rows added: 1 in 0.00 seconds
+0000.219 (0) Table e37_users: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_users.table.gz - 0.5 KB)
+0000.221 (0) Table e37_usermeta: Total expected rows (approximate): 37
+0000.223 (0) Table e37_usermeta: Total rows added: 37 in 0.00 seconds
+0000.224 (0) Table e37_usermeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_usermeta.table.gz - 1.5 KB)
+0000.226 (0) Table e37_commentmeta: Total expected rows (approximate): 0
+0000.228 (0) Table e37_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.228 (0) Table e37_commentmeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_commentmeta.table.gz - 0.4 KB)
+0000.230 (0) Table e37_comments: Total expected rows (approximate): 0
+0000.232 (0) Table e37_comments: Total rows added: 0 in 0.00 seconds
+0000.233 (0) Table e37_comments: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_comments.table.gz - 0.5 KB)
+0000.244 (0) Table e37_links: Total expected rows (approximate): 0
+0000.246 (0) Table e37_links: Total rows added: 0 in 0.00 seconds
+0000.247 (0) Table e37_links: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_links.table.gz - 0.4 KB)
+0000.249 (0) Table e37_postmeta: Total expected rows (approximate): 30
+0000.252 (0) Table e37_postmeta: Total rows added: 30 in 0.00 seconds
+0000.252 (0) Table e37_postmeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_postmeta.table.gz - 2.2 KB)
+0000.254 (0) Table e37_posts: Total expected rows (approximate): 34
+0000.259 (0) Table e37_posts: Total rows added: 34 in 0.00 seconds
+0000.259 (0) Table e37_posts: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_posts.table.gz - 6.9 KB)
+0000.262 (0) Table e37_term_relationships: Total expected rows (approximate): 1
+0000.263 (0) Table e37_term_relationships: Total rows added: 1 in 0.00 seconds
+0000.264 (0) Table e37_term_relationships: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_term_relationships.table.gz - 0.4 KB)
+0000.266 (0) Table e37_term_taxonomy: Total expected rows (approximate): 15
+0000.268 (0) Table e37_term_taxonomy: Total rows added: 15 in 0.00 seconds
+0000.269 (0) Table e37_term_taxonomy: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_term_taxonomy.table.gz - 0.5 KB)
+0000.271 (0) Table e37_termmeta: Total expected rows (approximate): 1
+0000.273 (0) Table e37_termmeta: Total rows added: 1 in 0.00 seconds
+0000.274 (0) Table e37_termmeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_termmeta.table.gz - 0.4 KB)
+0000.276 (0) Table e37_terms: Total expected rows (approximate): 15
+0000.278 (0) Table e37_terms: Total rows added: 15 in 0.00 seconds
+0000.278 (0) Table e37_terms: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_terms.table.gz - 0.6 KB)
+0000.290 (0) Table e37_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0000.292 (0) Table e37_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0000.293 (0) Table e37_woocommerce_order_itemmeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0000.305 (0) Table e37_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0000.307 (0) Table e37_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0000.307 (0) Table e37_woocommerce_payment_tokenmeta: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0000.316 (0) Table e37_failed_jobs: Total expected rows (approximate): 0
+0000.318 (0) Table e37_failed_jobs: Total rows added: 0 in 0.00 seconds
+0000.319 (0) Table e37_failed_jobs: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_failed_jobs.table.gz - 0.3 KB)
+0000.327 (0) Table e37_mailchimp_carts: Total expected rows (approximate): 0
+0000.329 (0) Table e37_mailchimp_carts: Total rows added: 0 in 0.00 seconds
+0000.330 (0) Table e37_mailchimp_carts: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_mailchimp_carts.table.gz - 0.3 KB)
+0000.338 (0) Table e37_queue: Total expected rows (approximate): 0
+0000.340 (0) Table e37_queue: Total rows added: 0 in 0.00 seconds
+0000.341 (0) Table e37_queue: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_queue.table.gz - 0.4 KB)
+0000.351 (0) Table e37_wc_download_log: Total expected rows (approximate): 0
+0000.353 (0) Table e37_wc_download_log: Total rows added: 0 in 0.00 seconds
+0000.353 (0) Table e37_wc_download_log: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_wc_download_log.table.gz - 0.4 KB)
+0000.364 (0) Table e37_wc_webhooks: Total expected rows (approximate): 0
+0000.365 (0) Table e37_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0000.366 (0) Table e37_wc_webhooks: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_wc_webhooks.table.gz - 0.5 KB)
+0000.376 (0) Table e37_woocommerce_api_keys: Total expected rows (approximate): 0
+0000.378 (0) Table e37_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0000.378 (0) Table e37_woocommerce_api_keys: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_api_keys.table.gz - 0.4 KB)
+0000.388 (0) Table e37_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0000.389 (0) Table e37_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0000.390 (0) Table e37_woocommerce_attribute_taxonomies: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0000.401 (0) Table e37_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0000.403 (0) Table e37_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0000.404 (0) Table e37_woocommerce_downloadable_product_permissions: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0000.414 (0) Table e37_woocommerce_log: Total expected rows (approximate): 0
+0000.416 (0) Table e37_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0000.416 (0) Table e37_woocommerce_log: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_log.table.gz - 0.4 KB)
+0000.427 (0) Table e37_woocommerce_order_items: Total expected rows (approximate): 0
+0000.429 (0) Table e37_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0000.430 (0) Table e37_woocommerce_order_items: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_order_items.table.gz - 0.4 KB)
+0000.443 (0) Table e37_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0000.445 (0) Table e37_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0000.445 (0) Table e37_woocommerce_payment_tokens: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0000.448 (0) Table e37_woocommerce_sessions: Total expected rows (approximate): 91
+0000.470 (0) Table e37_woocommerce_sessions: Total rows added: 91 in 0.02 seconds
+0000.472 (0) Table e37_woocommerce_sessions: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_sessions.table.gz - 4.5 KB)
+0000.474 (0) Table e37_woocommerce_shipping_zone_locations: Total expected rows (approximate): 1
+0000.476 (0) Table e37_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0000.477 (0) Table e37_woocommerce_shipping_zone_locations: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0000.479 (0) Table e37_woocommerce_shipping_zone_methods: Total expected rows (approximate): 1
+0000.481 (0) Table e37_woocommerce_shipping_zone_methods: Total rows added: 1 in 0.00 seconds
+0000.482 (0) Table e37_woocommerce_shipping_zone_methods: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0000.484 (0) Table e37_woocommerce_shipping_zones: Total expected rows (approximate): 1
+0000.486 (0) Table e37_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0000.486 (0) Table e37_woocommerce_shipping_zones: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0000.497 (0) Table e37_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0000.498 (0) Table e37_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0000.499 (0) Table e37_woocommerce_tax_rate_locations: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0000.510 (0) Table e37_woocommerce_tax_rates: Total expected rows (approximate): 0
+0000.512 (0) Table e37_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0000.513 (0) Table e37_woocommerce_tax_rates: finishing file (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_tax_rates.table.gz - 0.4 KB)
+0000.515 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_options.table.gz (1/31): adding to final database dump
+0000.524 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_users.table.gz (2/31): adding to final database dump
+0000.525 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_usermeta.table.gz (3/31): adding to final database dump
+0000.526 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_commentmeta.table.gz (4/31): adding to final database dump
+0000.527 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_comments.table.gz (5/31): adding to final database dump
+0000.527 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_links.table.gz (6/31): adding to final database dump
+0000.528 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_postmeta.table.gz (7/31): adding to final database dump
+0000.529 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_posts.table.gz (8/31): adding to final database dump
+0000.531 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_term_relationships.table.gz (9/31): adding to final database dump
+0000.532 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_term_taxonomy.table.gz (10/31): adding to final database dump
+0000.532 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_termmeta.table.gz (11/31): adding to final database dump
+0000.533 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_terms.table.gz (12/31): adding to final database dump
+0000.533 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_order_itemmeta.table.gz (13/31): adding to final database dump
+0000.534 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_payment_tokenmeta.table.gz (14/31): adding to final database dump
+0000.535 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_failed_jobs.table.gz (15/31): adding to final database dump
+0000.536 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_mailchimp_carts.table.gz (16/31): adding to final database dump
+0000.536 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_queue.table.gz (17/31): adding to final database dump
+0000.537 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_wc_download_log.table.gz (18/31): adding to final database dump
+0000.537 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_wc_webhooks.table.gz (19/31): adding to final database dump
+0000.538 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_api_keys.table.gz (20/31): adding to final database dump
+0000.538 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_attribute_taxonomies.table.gz (21/31): adding to final database dump
+0000.539 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_downloadable_product_permissions.table.gz (22/31): adding to final database dump
+0000.540 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_log.table.gz (23/31): adding to final database dump
+0000.540 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_order_items.table.gz (24/31): adding to final database dump
+0000.541 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_payment_tokens.table.gz (25/31): adding to final database dump
+0000.542 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_sessions.table.gz (26/31): adding to final database dump
+0000.544 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zone_locations.table.gz (27/31): adding to final database dump
+0000.545 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zone_methods.table.gz (28/31): adding to final database dump
+0000.545 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_shipping_zones.table.gz (29/31): adding to final database dump
+0000.546 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_tax_rate_locations.table.gz (30/31): adding to final database dump
+0000.546 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db-table-e37_woocommerce_tax_rates.table.gz (31/31): adding to final database dump
+0000.547 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db.gz: finished writing out complete database file (32 KB)
+0000.551 (0) Total database tables backed up: 31 (backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db.gz, size: 56566, sha256)
+0000.556 (0) backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.556 (0) Saving backup history. Total backup size: 55.2 KB
+0000.558 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.560 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.561 (0) No remote despatch: user chose no remote backup service
+0000.561 (0) Recording as successfully uploaded: backup_2019-02-27-0035_Visit_Formosa_dd8da2f4e8e5-db.gz
+0000.563 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0000.564 (0) Number of backup sets in history: 5; groups (db): 1
+0000.564 (0) Examining (for databases) backup set with group_id=0, nonce=dd8da2f4e8e5, datestamp=1551198942 (Feb 26 2019 16:35:42)
+0000.565 (0) This backup set is the backup set just made, so will not be deleted.
+0000.565 (0) Examining (for databases) backup set with group_id=0, nonce=3cb5eff1b41a, datestamp=1550508385 (Feb 18 2019 16:46:25)
+0000.565 (0) Examining (for databases) backup set with group_id=0, nonce=6ef85a954b3e, datestamp=1549987414 (Feb 12 2019 16:03:34)
+0000.565 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.565 (0) Examining (for databases) backup set with group_id=0, nonce=753bd7453362, datestamp=1548777832 (Jan 29 2019 16:03:52)
+0000.565 (0) 1548777832: db: this set includes a database (backup_2019-01-30-0003_Visit_Formosa_753bd7453362-db.gz); db count is now 2
+0000.565 (0) 1548777832: db: over retain limit (2); will delete this database
+0000.565 (0) Delete file: backup_2019-01-30-0003_Visit_Formosa_753bd7453362-db.gz, service=none
+0000.566 (0) Deleting local copy (backup_2019-01-30-0003_Visit_Formosa_753bd7453362-db.gz)
+0000.567 (0) This backup set is now empty; will remove from history
+0000.568 (0) Deleting log file (log.753bd7453362.txt)
+0000.568 (0) Examining (for databases) backup set with group_id=0, nonce=55cf59334d0a, datestamp=1547921506 (Jan 19 2019 18:11:46)
+0000.568 (0) Number of backup sets in history: 4; groups (files): 1
+0000.569 (0) Examining (for files) backup set with nonce=dd8da2f4e8e5, datestamp=1551198942 (Feb 26 2019 16:35:42)
+0000.569 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.569 (0) Examining (for files) backup set with nonce=3cb5eff1b41a, datestamp=1550508385 (Feb 18 2019 16:46:25)
+0000.569 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.569 (0) Examining (for files) backup set with nonce=6ef85a954b3e, datestamp=1549987414 (Feb 12 2019 16:03:34)
+0000.569 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0000.570 (0) Examining (for files) backup set with nonce=55cf59334d0a, datestamp=1547921506 (Jan 19 2019 18:11:46)
+0000.570 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0000.571 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0000.573 (0) Resume backup (dd8da2f4e8e5, 0): finish run
+0000.574 (0) Decremented the semaphore (d) by 1
+0000.575 (0) Semaphore (d) unlocked
+0000.575 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.577 (0) The backup apparently succeeded and is now complete
+0000.578 (0) No email will/can be sent - the user has not configured an email address.
+0000.578 (0) 備份工作已完成
